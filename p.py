@@ -4,7 +4,7 @@ import openai
 import time
 
 # Initialize OpenAI API (Replace with your actual API key)
-openai.api_key = 'AIzaSyCs820hbDlCWSZuSue5KyFLO22-IkKISiA'
+openai.api_key = 'your_api_key'
 
 # Load the YOLOv8 model
 model = YOLO('yolov8n.pt')  # You can choose other variants like yolov8s.pt, yolov8m.pt, etc.
